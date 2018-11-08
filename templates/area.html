@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Нормирование текста</title>
+    </head>
+    <body>
+        <form method="POST">
+            <label>
+                <span>Введите текст для нормирования:</span><br>
+                <textarea name="text" cols="100" rows="10"></textarea>
+            </label><br>
+            <input type="submit">
+        </form>
+    </body>
+    <body>
+        <form>
+            <label>
+                <span>Нормированный текст:</span><br>
+                <textarea name="text1" cols="100" rows="10">{{ text }}</textarea>
+            </label><br>
+        </form>
+    </body>
+</html>
